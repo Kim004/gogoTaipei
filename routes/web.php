@@ -32,6 +32,15 @@ Route::get('blog', function () {
 })->name('blog');
 
 
+Route::get('home', function () {
+    return view('my_view.home');
+})->name('home');
+
+Route::get('index', function () {
+    return view('my_view.index');
+})->name('index');
+
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

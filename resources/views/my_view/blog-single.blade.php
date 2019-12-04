@@ -15,7 +15,7 @@ RSS Feed: https://feeds.feedburner.com/Free-templateco
 
 ////////////////////////////////////////////////////////////////
 -->
-<!DOCTYPE html>
+{{-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <title>Browse &mdash; Free Website Template by Free-Template.co</title>
@@ -107,9 +107,13 @@ RSS Feed: https://feeds.feedburner.com/Free-templateco
         </div>
       </div>
       
-    </header>
+    </header> --}}
 
-  
+    @extends('my_view.layouts.master')
+
+    @section('title', 'Home')
+
+    @section('content')
 
     <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url(images/hero_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
       <div class="container">
@@ -321,7 +325,9 @@ RSS Feed: https://feeds.feedburner.com/Free-templateco
       </div>
     </div>
     
-    <footer class="site-footer">
+@endsection
+
+    {{-- <footer class="site-footer">
       <div class="container">
         <div class="row">
           <div class="col-md-9">
@@ -403,4 +409,4 @@ RSS Feed: https://feeds.feedburner.com/Free-templateco
   <script src="js/main.js"></script>
   
   </body>
-</html>
+</html> --}}

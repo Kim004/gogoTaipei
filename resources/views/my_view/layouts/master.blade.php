@@ -52,7 +52,6 @@
      --}}
   </head>
   <body>
-    @yield('content')
 
         {{-- header.blade.php --}}
         <div class="site-wrap">
@@ -73,13 +72,15 @@
                     <div class="row align-items-center">
                       
                       <div class="col-11 col-xl-2">
-                        <h1 class="mb-0 site-logo"><a href="index.html" class="text-white h2 mb-0">Browse</a></h1>
+                      <h1 class="mb-0 site-logo"><a href="{{ route('index')}}" class="text-white h2 mb-0">Home</a></h1>
+                        {{-- <h1 class="mb-0 site-logo"><a href="index.html" class="text-white h2 mb-0">Browse</a></h1> --}}
                       </div>
                       <div class="col-12 col-md-10 d-none d-xl-block">
                         <nav class="site-navigation position-relative text-right" role="navigation">
             
                           <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
-                            <li class="active"><a href="index.html"><span>Home</span></a></li>
+                            <li class="active"><a href="{{ route('home')}}"><span>Login</span></a></li>
+                            {{-- <li class="active"><a href="index.html"><span>Home</span></a></li> --}}
                             <li class="has-children">
                               <a href="about.html"><span>Dropdown</span></a>
                               <ul class="dropdown arrow-top">
@@ -118,6 +119,9 @@
                   </div>
                   
                 </header>
+
+                {{-- content --}}
+                @yield('content')
 
                 {{-- footer.blade.php --}}
                 <footer class="site-footer">
@@ -221,7 +225,7 @@
         {{-- <script src="js/typed.js"></script> --}}
                   <script>
                   var typed = new Typed('.typed-words', {
-                  strings: ["Attractions"," Events"," Hotels", " Restaurants"],
+                  strings: ["Taipei"," NewTaipei"],
                   typeSpeed: 80,
                   backSpeed: 80,
                   backDelay: 4000,
