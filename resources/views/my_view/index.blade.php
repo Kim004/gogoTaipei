@@ -169,8 +169,9 @@ RSS Feed: https://feeds.feedburner.com/Free-templateco
       </div>
     </div>  
 
+  @endsection
     
-    <div class="site-section">
+    {{-- <div class="site-section">
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-md-7 text-center border-primary">
@@ -228,10 +229,14 @@ RSS Feed: https://feeds.feedburner.com/Free-templateco
           <div class="col-md-4"><a href="#" class="btn btn-block btn-outline-primary btn-md px-5">View All Categories</a></div>
         </div>
       </div>
-    </div>
+    </div> --}}
       
+
+
+
     
-    <div class="site-section" data-aos="fade">
+    {{-- 可以當成viewlist的排列樣板，先註解掉 --}}
+    {{-- <div class="site-section" data-aos="fade">
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-md-7 text-center border-primary">
@@ -334,13 +339,10 @@ RSS Feed: https://feeds.feedburner.com/Free-templateco
           </div>
         </div>
       </div>
-    </div>
+    </div> --}}
 
     
-    
-    
-    
-    <div class="site-section">
+    {{-- <div class="site-section">
       <div class="container">
         <div class="row">
           <div class="col-md-6 mb-5">
@@ -395,9 +397,9 @@ RSS Feed: https://feeds.feedburner.com/Free-templateco
           </div>
         </div>
       </div>
-    </div>
+    </div> --}}
 
-    <div class="site-section">
+    {{-- <div class="site-section">
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-md-7 text-center border-primary">
@@ -439,9 +441,9 @@ RSS Feed: https://feeds.feedburner.com/Free-templateco
           </div>
         </div>
       </div>
-    </div>
+    </div> --}}
     
-    <div class="site-section bg-light">
+    {{-- <div class="site-section bg-light">
       <div class="container">
 
         <div class="row justify-content-center mb-5">
@@ -500,11 +502,11 @@ RSS Feed: https://feeds.feedburner.com/Free-templateco
 
         </div>
       </div>
-    </div>
+    </div> --}}
 
 
 
-    <div class="site-section">
+    {{-- <div class="site-section">
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-md-7 text-center border-primary">
@@ -545,10 +547,10 @@ RSS Feed: https://feeds.feedburner.com/Free-templateco
           </div>
         </div>
       </div>
-    </div>
+    </div> --}}
 
     
-    <div class="py-5 bg-primary">
+    {{-- <div class="py-5 bg-primary">
       <div class="container">
         <div class="row">
           <div class="col-lg-7 mr-auto mb-4 mb-lg-0">
@@ -560,9 +562,9 @@ RSS Feed: https://feeds.feedburner.com/Free-templateco
           </div>
         </div>
       </div>
-    </div>
+    </div> --}}
     
-    @endsection
+
 
     {{-- <footer class="site-footer">
       <div class="container">
