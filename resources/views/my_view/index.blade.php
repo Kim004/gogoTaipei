@@ -125,7 +125,7 @@ RSS Feed: https://feeds.feedburner.com/Free-templateco
             <div class="row justify-content-center mb-4">
               <div class="col-md-10 text-center">
                 <h1 data-aos="fade-up">GOGO <span class="typed-words"></span></h1>
-                <p data-aos="fade-up" data-aos-delay="100">Handcrafted free templates by <a href="https://free-template.co/" target="_blank">Free-Template.co</a></p>
+                {{-- <p data-aos="fade-up" data-aos-delay="100">Handcrafted free templates by <a href="https://free-template.co/" target="_blank">Free-Template.co</a></p> --}}
               </div>
             </div>
 
