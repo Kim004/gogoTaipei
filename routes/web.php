@@ -31,11 +31,12 @@ Route::get('blog', function () {
     return view('my_view.blog');
 })->name('blog');
 
-
+// 會到login的頁面
 Route::get('home', function () {
     return view('my_view.home');
 })->name('home');
 
+//會回到首頁
 Route::get('index', function () {
     return view('my_view.index');
 })->name('index');
