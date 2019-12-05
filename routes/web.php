@@ -15,9 +15,6 @@ Route::get('/', function () {
     return view('my_view.index');
 })->name('home');
 
-Route::get('about', function () {
-    return view('my_view.about');
-})->name('about');
 
 Route::get('listings', function () {
     return view('my_view.listings');
@@ -27,9 +24,15 @@ Route::get('contact', function () {
     return view('my_view.contact');
 })->name('contact');
 
-Route::get('blog', function () {
-    return view('my_view.blog');
-})->name('blog');
+// 會到viewlist的頁面
+Route::get('viewlist', function () {
+    return view('my_view.viewlist');
+})->name('viewlist');
+
+//會到viewinfo的頁面
+Route::get('viewinfo', function () {
+    return view('my_view.about');
+})->name('viewinfo');
 
 // 會到login的頁面
 Route::get('home', function () {

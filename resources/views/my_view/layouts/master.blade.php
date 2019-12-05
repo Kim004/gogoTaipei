@@ -81,7 +81,8 @@
                           <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
                             <li class="active"><a href="{{ route('home')}}"><span>Login</span></a></li>
                             {{-- <li class="active"><a href="index.html"><span>Home</span></a></li> --}}
-                            <li class="has-children">
+                            {{-- Dropdown功能先註解掉 --}}
+                            {{-- <li class="has-children">
                               <a href="about.html"><span>Dropdown</span></a>
                               <ul class="dropdown arrow-top">
                                 <li><a href="#">Menu One</a></li>
@@ -97,11 +98,11 @@
                                   </ul>
                                 </li>
                               </ul>
-                            </li>
+                            </li> --}}
+                            <li><a href="{{ route('viewlist')}}"><span>Viewlist</span></a></li>
+                            <li><a href="{{ route('viewinfo')}}"><span>Viewinfo</span></a></li>
                             <li><a href="{{ route('listings')}}"><span>Listings</span></a></li>
-                            <li><a href="{{ route('about')}}"><span>About</span></a></li>
                             <li><a href="{{ route('contact')}}"><span>Contact</span></a></li>
-                            <li><a href="{{ route('blog')}}"><span>Blog</span></a></li>
                             {{-- <li><a href="listings.html"><span>Listings</span></a></li> --}}
                             {{-- <li><a href="about.html"><span>About</span></a></li> --}}
                             {{-- <li><a href="blog.html"><span>Blog</span></a></li> --}}
