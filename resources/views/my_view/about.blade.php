@@ -159,7 +159,7 @@ RSS Feed: https://feeds.feedburner.com/Free-templateco
     
     
 
-    <div class="site-section "  data-aos="fade">
+    {{-- <div class="site-section "  data-aos="fade">
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-8" >
@@ -287,7 +287,7 @@ RSS Feed: https://feeds.feedburner.com/Free-templateco
           </div>
         </div>
       </div>
-    </div>
+    </div> --}}
     
     @endsection
 
